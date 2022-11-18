@@ -1,0 +1,25 @@
+.container{
+    border:solid 1px black; 
+    width: 50vw; 
+    height: 50vw; 
+    margin: 10vw auto; 
+    max-width: 350px;
+    max-height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 0px;
+}
+.container .box{
+    border:solid 5px rgb(7, 5, 6); 
+    width: 25%; 
+    height: 25%; 
+    box-sizing:border-box;    
+    cursor: pointer;
+    border-radius: 20px;
+}
+.container .box.hideColor{
+  background:ghostwhite !important;
+}
+.container .box.freeze{
+  cursor: not-allowed;
+}
